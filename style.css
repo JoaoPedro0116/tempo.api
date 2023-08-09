@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    border: 1px black solid;
+    width: 300px;
+    margin: 150px auto;
+    padding: 15px;
+    
+}
+ .buscar{
+    padding: 8px;
+    font-size: 0.8em;
+    outline: none;
+    border-radius: 12px;
+    width: 160px;
+}
+#btn-buscar{
+    border-radius: 12px;
+    width: 35px;
+    background-color: black;
+    margin-left: 5px;
+}
+#icone-buscar{
+    color: white;
+    font-size: 20px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+#celsius{
+   
+    margin-top: 30px;
+    font-size: 20px;
+    font-size: 2em;
+    
+}
+#img-tempo{
+  width: 40%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 1em;
+    margin: 10px;
+}
