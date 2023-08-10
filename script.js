@@ -12,5 +12,5 @@ const key = "b090f2be2e87f981573c8f468e8a06fnb"
 function cliqueinoBotao() {
     const cidade = document.querySelector(".input-cidade").value
     
-    buscarcidade(cidade)
+    console.log(cidade)
 }
