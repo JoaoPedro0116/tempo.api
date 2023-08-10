@@ -1,16 +1,15 @@
-const key = "b090f2be2e87f981573c8f468e8a06fnb"
+const key = ""
 
 
-
-// async function buscarcidade(cidade){
-//     const dados = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${key}`).then(resposta => resposta.json())
-
-//     console.log(dados)
-   
-// }
 
 function cliqueinoBotao() {
     const cidade = document.querySelector(".input-cidade").value
     
     console.log(cidade)
-}
+
+    document.getElementById("nome-cidade").innerText = "Tempo em " + cidade;
+     if (cidade == 0){
+        document.getElementById("nome-cidade").innerText = "Tempo em Cidade";
+     }
+    }
+
