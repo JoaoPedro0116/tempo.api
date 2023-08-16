@@ -109,3 +109,19 @@ li:hover{
 .icon-git:hover{
     color: rgb(100, 100, 100);
 }
+#icon-dark{
+color: rgb(147, 0, 233)
+}
+#dark{
+    
+    width: 30px;
+    background-color: none;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+ 
+  }
