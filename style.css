@@ -64,7 +64,7 @@ h1{
     font-size: 2em;
 }
 .temp{
-   
+
     margin-top: 30px;
     font-size: 2.4em;
     
@@ -90,6 +90,7 @@ p{
 }
 ul{
     display: flex;
+    margin-top: -100px;
     list-style: none;
     gap: 2em;
     justify-content: center;
@@ -98,7 +99,13 @@ a, li, .icon-git, .icon-link{
     color: rgb(147, 0, 233);
     text-decoration: none;
 } 
-.icon-git, .icon-link{
+.icon-git{
     font-size: 20px;
     margin-top: -3px;
+}
+li:hover{
+    color: rgb(100, 100, 100);
+}
+.icon-git:hover{
+    color: rgb(100, 100, 100);
 }
